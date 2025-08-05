@@ -1,5 +1,10 @@
-# For finding second Largest digit in a Alphanumeric Array
+# LeetCode day 1
 
+# Check Palindrome
+def ifPalindrome(s):
+    return str(s) == str(s)[::-1]
+
+# Second Largest
 def secondHighest(s: str) -> int:
     second_largest = -1
     nums = []
@@ -15,6 +20,14 @@ def secondHighest(s: str) -> int:
         elif num < largest and num > second_largest:
             second_largest = num
     return second_largest
-inpp = input("Num")
-uuu = secondHighest(inpp)
-print(uuu)
+
+
+# Contains Duplicates
+class Solution:
+    def containsDuplicate(self, nums: list[int]) -> bool:
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return True
+            seen.add(num)
+        return False
