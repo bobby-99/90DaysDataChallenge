@@ -1,0 +1,18 @@
+[
+    {
+        "text": "call mom",
+        "done": true
+    },
+    {
+        "text": "Solve Leetcode Problem",
+        "done": false
+    },
+    {
+        "text": "Take out Trash",
+        "done": true
+    },
+    {
+        "text": "Touch Grass",
+        "done": false
+    }
+]

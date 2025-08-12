@@ -1,0 +1,21 @@
+[
+    {
+        "text": "Take out trash",
+        "done": false,
+        "time": "2025-08-12 22:22"
+    },
+    {
+        "text": "Call mom",
+        "done": true,
+        "time": "2025-08-12 22:23"
+    },
+    {
+        "text": "Reservation",
+        "done": true,
+        "time": "2025-08-12 22:23"
+    },
+    {
+        "text": "Solve leetcode Daily Problem",
+        "done": false
+    }
+]

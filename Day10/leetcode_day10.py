@@ -1,6 +1,6 @@
 # 26. Remove Duplicates from sorted array
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums: list[int]) -> int:
         if not nums:
             return 0
 
