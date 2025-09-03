@@ -2,7 +2,7 @@
 
 class Solution:
 
-    def maxArea(self, height: List[int]) -> int:
+    def maxArea(self, height: list[int]) -> int:
 
         n = len(height)
 
@@ -40,7 +40,7 @@ class Solution:
 ## 88. Merge Sorted Array
 
 class Solution:
-    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+    def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:
         """
         Do not return anything, modify nums1 in-place instead.
         """
